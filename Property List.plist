@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>createdAt</key>
+		<string>8:23</string>
+		<key>mbtype</key>
+		<string>皇冠</string>
+		<key>profileImageUrl</key>
+		<string>13.jpg</string>
+		<key>source</key>
+		<string>iPhone 5s</string>
+		<key>text</key>
+		<string>“我单身很久的时候，很多人问我是不是眼光太高了，我说不是。
+
+因为在我眼里那些所谓的喜欢不算喜欢，他们最多嘴巴上关心你，约你出去玩。可是当你有困难的时候没有一个出来，他们也最多只是嘴上说心疼，生病了也只是安慰你多喝水，好好休息，然后很晚的时候下大雨，他们也只是嘱咐我路上小心点。
+
+你们说我眼光高？我只是明白有些人并没有你想象中那么的在意你，又或者说他可能是真的喜欢你，但这一点也不妨碍他喜欢别人。
+
+其实最遗憾的是从来没有感受过那种被人坚定选择的感觉。就像是，他只是刚好需要，你只是刚好在。”</string>
+		<key>userName</key>
+		<string>小狗</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>2</integer>
+		<key>createdAt</key>
+		<string>9:36</string>
+		<key>mbtype</key>
+		<string>皇冠</string>
+		<key>profileImageUrl</key>
+		<string>2.jpg</string>
+		<key>source</key>
+		<string>iPhone 6s</string>
+		<key>text</key>
+		<string>實在太好笑忍不住要分享😆😆 自己會轉換節奏⋯ 正常版-慢板-快板⋯ 這次唱歌你們聽懂了嗎？😂 #一隻蛤蟆一張嘴清楚版# </string>
+		<key>userName</key>
+		<string>搞笑</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>createdAt</key>
+		<string>11:12</string>
+		<key>mbtype</key>
+		<string>皇冠</string>
+		<key>profileImageUrl</key>
+		<string>3.jpg</string>
+		<key>source</key>
+		<string>iPhone 5s</string>
+		<key>text</key>
+		<string>“为了治订外卖的人不劳而获”！外卖小哥吃了顾客的订餐,还言语威胁...</string>
+		<key>userName</key>
+		<string>小华</string>
+	</dict>
+</array>
+</plist>
