@@ -14,7 +14,6 @@
 {
     UITableView *_tableView;
     NSMutableArray *_status;
-    NSMutableArray *_statusCells;//存储cell，用于计算高度
 }
 @end
 
@@ -44,11 +43,8 @@
     NSString *path=[[NSBundle mainBundle] pathForResource:@"Property List" ofType:@"plist"];
     NSArray *array=[NSArray arrayWithContentsOfFile:path];
     _status=[[NSMutableArray alloc]init];
-    _statusCells=[[NSMutableArray alloc]init];
     [array enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         [_status addObject:[KCStatus statusWithDictionary:obj]];
-        KCStatusTableViewCell *cell=[[KCStatusTableViewCell alloc]init];
-        [_statusCells addObject:cell];
     }];
     
 }
@@ -80,8 +76,7 @@
 #pragma mark - 代理方法
 #pragma mark 重新设置单元格高度
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    //KCStatusTableViewCell *cell=[tableView cellForRowAtIndexPath:indexPath];
-    KCStatusTableViewCell *cell= _statusCells[indexPath.row];
+    KCStatusTableViewCell *cell = [[KCStatusTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
     cell.status=_status[indexPath.row];
     return cell.height;
 }
